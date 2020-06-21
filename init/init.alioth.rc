@@ -32,6 +32,7 @@ on post-fs-data
     mkdir /data/vendor/nfc 0770 nfc nfc
 
 on boot
+    chown system system /sys/touchpanel/double_tap
     chown system system /sys/class/touch/touch_dev/palm_sensor
     chown system system /sys/class/touch/touch_dev/partial_diff_data
     copy  /vendor/etc/tunings.txt /mnt/vendor/persist/vpp/tunings.txt
