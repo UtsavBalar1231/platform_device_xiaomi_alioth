@@ -213,6 +213,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.incremental.enable=1
 
+# Init
+PRODUCT_PACKAGES += \
+    init.qti.dcvs.sh \
+    init.qti.ufs.rc \
+    init.target.rc
+
 # Keymaster
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.strongbox_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.strongbox_keystore.xml
