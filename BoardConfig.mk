@@ -147,5 +147,8 @@ TARGET_USERIMAGES_USE_F2FS := true
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
+# SEPolicy
+-include device/xiaomi/alioth-sepolicy/alioth-sepolicy.mk
+
 # VNDK
 BOARD_VNDK_VERSION := current
