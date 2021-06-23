@@ -214,10 +214,17 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.incremental.enable=1
 
 # Init
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
+
 PRODUCT_PACKAGES += \
+    fstab.qcom \
+    init.alioth.rc \
+    init.mi.usb.sh \
     init.qti.dcvs.sh \
     init.qti.ufs.rc \
-    init.target.rc
+    init.target.rc \
+    ueventd.alioth.rc
 
 # Keymaster
 PRODUCT_COPY_FILES += \
