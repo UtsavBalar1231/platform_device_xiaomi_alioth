@@ -106,7 +106,6 @@ vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb|40a9c5f549bade6900028c8248f1f25
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp|fc49cf0f493262ebd32d594ce0a4639b20176e21
 vendor/etc/acdbdata/adsp_avs_config.acdb|51f049b97e1d0b56faa1cf3713682899f7522c1a
 vendor/lib/hw/audio.primary.kona.so|ffce5897204c132934c94a5851f23ec305f411a5
-vendor/lib/hw/sound_trigger.primary.kona.so|b9e95a9d60e90493a5c51c8862b244f63eb11c1c
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so|bd261c850987d4423b3e91f8fb6eed8b4304ea46
 vendor/lib/vndk/libxlog.so|45b7bcc195801d8d6bd15e1bf381c8feb7a816ea
 vendor/lib/libAlacSwDec.so|ac988f5135174cd5292bcdf6e6e2669ce5932b48
@@ -162,7 +161,6 @@ vendor/lib/libtinycompress.so|22cacad0ec7618945b449e3b83e079aa9169a01b
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so|2a8bebab7997e5c84225f7429ed1cc91933aeaec
 vendor/lib/vendor.qti.voiceprint@1.0.so|48cf749a47ffe1dc626170a5578a1c8668ddbbdf
 vendor/lib64/hw/audio.primary.kona.so|a610fdb2520a27553dc980efef1c8e0aad951d7a
-vendor/lib64/hw/sound_trigger.primary.kona.so|03288e22ea860b15355a8ddc8c4ba5da89acff34
 vendor/lib64/hw/vendor.qti.hardware.audiohalext@1.0-impl.so|9a88fff3841d3548e1f9ed12818c06528402177c
 vendor/lib64/libAlacSwDec.so|6b8d09b5adc9de2deb424301f95000b5f7ba1706
 vendor/lib64/libApeSwDec.so|f2f9157cd704807cd6117a1e3811810c6edb0e0f
