@@ -192,12 +192,14 @@
             <LtmStrength>19000</LtmStrength>
         </videoBox>
         <sre>
-           <sreParamName>sreLevel sreIgcLevel0 sreIgcLevel1 sreIgcLevel2 sreExitThreshold</sreParamName>
-           <sreLevel>5000 10000 25000</sreLevel>
+           <sreParamName>sreLevel sreIgcLevel0 sreIgcLevel1 sreIgcLevel2 sreExitThreshold sreLevel1Divisor sreLevel2Divisor</sreParamName>
+           <sreLevel>5000 10000 50000</sreLevel>
            <sreIgcLevel0>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14</sreIgcLevel0>
-           <sreIgcLevel1>0 15 16 17 18 19 20 21 22 23 24 25 26 27 28</sreIgcLevel1>
-           <sreIgcLevel2>0 29 30 31 32 33 34 35 36 37 38 39 40 41 42</sreIgcLevel2>
-           <sreExitThreshold>4500</sreExitThreshold>
+           <sreIgcLevel1>0 15 16 17 18 19 20 21 22 23 25 25 26 25 28</sreIgcLevel1>
+           <sreIgcLevel2>0 29 30 31 32 33 34 35 36 37 39 39 40 39 42</sreIgcLevel2>
+           <sreExitThreshold>9500</sreExitThreshold>
+           <sreLevel1Divisor>6.0</sreLevel1Divisor>
+           <sreLevel2Divisor>10.0</sreLevel2Divisor>
         </sre>
         <TrueTone>
             <TrueToneParamName>appZoneNum cctZoneNum cctThresholdNum appZone0 appZone1 appZone2 cctZone0 cctZone1 cctZone2 cctThresholdZone0 cctThresholdZone1 cctThresholdZone2 cctThresholdZone3 cctThresholdZone4 cctThresholdZone5 cctThresholdZone6 cctThresholdZone7 cctThresholdZone8 cctThresholdZone9 cctThresholdZone10 cctThresholdZone11 CCTLuxThreshold D65Coeff0 D65Coeff1 D65Coeff2 D65Coeff3 D65Coeff4 D65Coeff5 D65Coeff6 D65Coeff7 D65Coeff8 TrueTonedimmingTime cctStepMs nativeCCTZone</TrueToneParamName>

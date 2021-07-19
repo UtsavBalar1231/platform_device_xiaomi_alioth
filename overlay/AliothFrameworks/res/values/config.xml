@@ -45,9 +45,9 @@
          -->
     <string name="config_mainBuiltInDisplayCutout">
         M 0, 0
-        H -23
+        H -27
         V 80
-        H 23
+        H 27
         V 0
         H 0
         Z
