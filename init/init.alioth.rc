@@ -39,6 +39,7 @@ on boot
     chown system system /sys/class/thermal/thermal_message/sconfig
     copy  /vendor/etc/tunings.txt /mnt/vendor/persist/vpp/tunings.txt
     mkdir /mnt/vendor/persist/camera 0755 system cameraserver
+    write /sys/block/sda/queue/wbt_lat_usec 75000
 
 on property:vendor.post_boot.parsed=1
     # configure input boost settings
