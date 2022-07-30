@@ -1,5 +1,8 @@
 /data/vendor/mac_addr(/.*)?                   u:object_r:vendor_wifi_vendor_data_file:s0
 /data/vendor/wlan_logs(/.*)?                  u:object_r:vendor_wifi_vendor_log_data_file:s0
 
+# Allow nv_mac to create wlan_mac.bin in /vendor/persist
+/mnt/vendor/persist/wlan_mac.bin              u:object_r:vendor_persist_wcnss_service_file:s0
+
 # nv_mac
 /vendor/bin/nv_mac                            u:object_r:vendor_wcnss_service_exec:s0
