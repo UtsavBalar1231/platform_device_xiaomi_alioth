@@ -39,6 +39,8 @@
     <bool name="config_pocketModeSupported">false</bool>
 
     <!-- Fingerprint from stock ROM -->
-    <string name="config_stockFingerprint" translatable="false">Redmi/alioth_global/alioth:12/RKQ1.211001.001/V13.0.4.0.SKHMIXM:user/release-keys</string>
+    <string name="config_stockFingerprint" translatable="false">Redmi/alioth_global/alioth:12/RKQ1.211001.001/V13.0.5.0.SKHMIXM:user/release-keys</string>
 
+    <!-- Whether device has a physical display cutout -->
+    <bool name="config_physicalDisplayCutout">true</bool>
 </resources>
